@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		06501E52E3188E51465C5503B001FAF7 /* Pods-iOSViews_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C20EA7ABE34EDA80EC1A6A8436A7ADA8 /* Pods-iOSViews_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D063605BB98696B27F7DE45C98CD51A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD84174E3DCBB9A6938F4234CC90DB3 /* ReplaceMe.swift */; };
 		228E058D5734EEBE86FA27968607383A /* Pods-iOSViews_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2B7C96B6E9448E874E9BFA716FEC6B /* Pods-iOSViews_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FA09CE3993AE8A3B5AADD710E4A0678 /* Pods-iOSViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B564564933B7D480F3F1AD1CE13999A0 /* Pods-iOSViews_Tests-dummy.m */; };
 		9703BB88CCDD6DE1364CD02B8710610B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -17,6 +16,10 @@
 		BDD757C02BA266A858209C0B5F2FAA52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		C4C84D7874E1847750D1315F69AEDD27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		E0CBA74AFBC2D1F93F3510721639AC11 /* Pods-iOSViews_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05479FAB2D47468ABBFD5D5F55EEECC0 /* Pods-iOSViews_Example-dummy.m */; };
+		F7D3B93D1E15CCFC00F2C3CB /* NoScrollCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3B93C1E15CCFC00F2C3CB /* NoScrollCollectionView.swift */; };
+		F7D3B9401E15CD2200F2C3CB /* NoScrollTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3B93F1E15CD2200F2C3CB /* NoScrollTableView.swift */; };
+		F7D3B9431E15CD9300F2C3CB /* RoundedUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3B9421E15CD9300F2C3CB /* RoundedUIImageView.swift */; };
+		F7D3B9451E15CDA700F2C3CB /* UICheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3B9441E15CDA700F2C3CB /* UICheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +35,6 @@
 /* Begin PBXFileReference section */
 		046DB48A08A06CCA81C50F2452C3A2F4 /* Pods-iOSViews_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSViews_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		05479FAB2D47468ABBFD5D5F55EEECC0 /* Pods-iOSViews_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSViews_Example-dummy.m"; sourceTree = "<group>"; };
-		0AD84174E3DCBB9A6938F4234CC90DB3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		17F46AA6CAD6DEACB0D3C4FE6D5173F4 /* Pods-iOSViews_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSViews_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		23066A1DBB165633B726E2C254713F29 /* Pods-iOSViews_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSViews_Example-frameworks.sh"; sourceTree = "<group>"; };
 		23E8C5D7252E872E22AF04CB886100CD /* Pods-iOSViews_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSViews_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -58,6 +60,10 @@
 		D80873FCBD9C365568DB7DC2D4585C41 /* iOSViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSViews-dummy.m"; sourceTree = "<group>"; };
 		DC8EB0DA7A5F351B943C297B90C51B5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F56A8A134CDF31C98FC24BE34448944E /* Pods-iOSViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOSViews_Tests.modulemap"; sourceTree = "<group>"; };
+		F7D3B93C1E15CCFC00F2C3CB /* NoScrollCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoScrollCollectionView.swift; path = UICollectionView/NoScrollCollectionView.swift; sourceTree = "<group>"; };
+		F7D3B93F1E15CD2200F2C3CB /* NoScrollTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoScrollTableView.swift; path = UITableView/NoScrollTableView.swift; sourceTree = "<group>"; };
+		F7D3B9421E15CD9300F2C3CB /* RoundedUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedUIImageView.swift; path = UIView/RoundedUIImageView.swift; sourceTree = "<group>"; };
+		F7D3B9441E15CDA700F2C3CB /* UICheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICheckBox.swift; path = UIView/UICheckBox.swift; sourceTree = "<group>"; };
 		F997FFD25D3EA07317D946363695F925 /* Pods_iOSViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FBC28095964E9B429190264245BE45 /* iOSViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSViews-prefix.pch"; sourceTree = "<group>"; };
 		FB1E303AD5910E4B1F2FCB656BB37B40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -217,9 +223,36 @@
 		C74067988B748132F516AEA1D013ADF5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0AD84174E3DCBB9A6938F4234CC90DB3 /* ReplaceMe.swift */,
+				F7D3B9411E15CD7F00F2C3CB /* UIView */,
+				F7D3B93E1E15CD1200F2C3CB /* UITableView */,
+				F7D3B93B1E15CCE600F2C3CB /* UICollectionView */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		F7D3B93B1E15CCE600F2C3CB /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F7D3B93C1E15CCFC00F2C3CB /* NoScrollCollectionView.swift */,
+			);
+			name = UICollectionView;
+			sourceTree = "<group>";
+		};
+		F7D3B93E1E15CD1200F2C3CB /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				F7D3B93F1E15CD2200F2C3CB /* NoScrollTableView.swift */,
+			);
+			name = UITableView;
+			sourceTree = "<group>";
+		};
+		F7D3B9411E15CD7F00F2C3CB /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F7D3B9421E15CD9300F2C3CB /* RoundedUIImageView.swift */,
+				F7D3B9441E15CDA700F2C3CB /* UICheckBox.swift */,
+			);
+			name = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,8 +378,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D3B9431E15CD9300F2C3CB /* RoundedUIImageView.swift in Sources */,
+				F7D3B93D1E15CCFC00F2C3CB /* NoScrollCollectionView.swift in Sources */,
 				B920D3A0D89FA2F4AEF131673308B3B5 /* iOSViews-dummy.m in Sources */,
-				1D063605BB98696B27F7DE45C98CD51A /* ReplaceMe.swift in Sources */,
+				F7D3B9451E15CDA700F2C3CB /* UICheckBox.swift in Sources */,
+				F7D3B9401E15CD2200F2C3CB /* NoScrollTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 92A04D4955C1956CCB1E4BAEB0CA73AC /* iOSViews.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -523,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 92A04D4955C1956CCB1E4BAEB0CA73AC /* iOSViews.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
